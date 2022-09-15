@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century gothic;
+  }
+  
+  header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(fer.jpg);
+    height:180vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 15px; 
+  }
+  
+  ul li{
+    display: inline-block;
+  }
+  ul li a{
+    text-decoration: none;
+    color: rgb(247, 242, 242);
+    padding: 5px 20px ;
+    border: 1px solid transparent;  
+    transition: 0.6s ease ;
+    border-radius: 5px;
+  }
+  ul li a:hover{
+    background-color: #fff;
+    color: black;
+  }
+  ul li.active a{
+    background-color: #fff;
+    color: black;
+  }
+  
+  .main {
+      max-width: 1200px;
+      margin:auto ;
+      
+  }
+  .title{
+    position:absolute;
+    top: 45%;
+    left:50%;
+  transform: translate(-50%,-50%); 
+  }
+  .title h1{
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+  }
+  .button{
+    
+    position:absolute;
+    top: 59%;
+    left:50%;
+  transform: translate(-50%,-50%);
+  }
+  .btn{
+    background-color: rgba(41, 187, 138, 0.952);
+    border:1px solid white;
+    padding:10px 30px;
+    color:#fff; 
+    text-decoration: none;
+    transition:0.6s ease ;
+    border-radius:5px;
+  }
+  .btn:hover{
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .rst{
+    color: antiquewhite;
+    position:absolute;
+    top: 80%;
+    left:75%;
+  transform: translate(-50%,-50%);
+  width:150%;
+  
+  
+  }
+ 
